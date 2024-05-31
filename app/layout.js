@@ -17,16 +17,16 @@ const clash = localFont({
 });
 
 export const metadata = {
-  title: "Finance",
+  title: "Fineasy",
   description: "Landing page of a Finance app",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${clash.variable} font-sans`}>
-      <body>
+      <body className="max-w-6xl mx-auto flex flex-col items-center justify-center">
         <NavBar />
-        <main>{children}</main>
+        <main className="mt-20">{children}</main>
       </body>
     </html>
   );
