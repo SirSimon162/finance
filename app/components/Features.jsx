@@ -36,8 +36,8 @@ function Feature({ heading, desc, icon }) {
 const Features = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center mb-10">
-        <div className="relative w-full flex justify-center items-center mb-4 md:mb-0">
+      <div className="w-full flex flex-col md:flex-row items-center justify-between mb-10">
+        <div className="relative flex justify-center items-center mb-4 md:mb-0">
           <Image
             width={1000}
             height={1000}
@@ -57,7 +57,7 @@ const Features = () => {
               Finance Made Easy
             </h2>
           </div>
-          <div className="mx-auto flex flex-wrap justify-center">
+          <div className="mx-auto flex flex-wrap justify-center max-w-[500px]">
             {featuresData.map((feature) => (
               <Feature key={feature.heading} {...feature} />
             ))}

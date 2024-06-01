@@ -37,7 +37,7 @@ function Hero() {
           />
         </div>
       </div>
-      <div className="relative w-full flex items-center justify-center -translate-y-20">
+      <div className="relative w-full flex items-center justify-center sm:-translate-y-20">
         <Image
           src="/HeroImg.png"
           alt="Mockups"
