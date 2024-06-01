@@ -55,7 +55,7 @@ const FAQCard = ({ index, question, answer }) => (
 const FAQ = () => {
   return (
     <div className="w-full mx-auto p-4">
-      <div className="flex flex-col items-start justify-start mb-4">
+      <div className="flex flex-col items-start justify-start mb-4 sm:mb-8">
         <p className="mt-4 text-[14px] sm:text-[16px] text-red-600 leading-tight">
           FAQS
         </p>
