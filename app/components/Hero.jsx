@@ -39,7 +39,7 @@ function Hero() {
           financial goals, big or small.
         </p>
         <div className="flex flex-col md:flex-row gap-[40px] text-[18px]">
-          <button className="bg-black text-white py-[16px] px-[23px] flex items-center justify-center gap-[8px]">
+          <button className="bg-black hover:bg-gray-800 text-white py-[16px] px-[23px] flex items-center justify-center gap-[8px]">
             <p>Get Started</p>
             <MdArrowRightAlt />
           </button>

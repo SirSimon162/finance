@@ -34,7 +34,7 @@ function NavBar() {
               </a>
             </div>
           </div>
-          <button className="bg-black text-white text-[18px] px-[46px] py-[16px]">
+          <button className="bg-black hover:bg-gray-800 text-white text-[18px] px-[46px] py-[16px]">
             Download
           </button>
         </div>
