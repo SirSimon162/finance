@@ -6,7 +6,7 @@ function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <nav className="w-full">
-      <div className="mx-auto px-2 lg:px-0 py-2 lg:py-4 flex justify-between items-center">
+      <div className="mx-auto px-0 lg:px-0 py-2 lg:py-4 flex justify-between items-center">
         <a href="/" className="lg:hidden flex items-center w-fit">
           <img src="/logo.svg" alt="logo" />
           <span className="ml-2 font-bold lg:text-4xl text-xl">Fineasy</span>

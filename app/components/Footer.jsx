@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="bg-black h-[0.5px] w-full max-w-md mx-auto mt-5 md:mt-16"></div>
-        <p className="text-[14px] md:text-[16px] text-center pt-[16px] md:pt-[20px]">Copyright 2022 uifry.com all rights reserved</p>
+        <p className="text-[14px] md:text-[16px] text-center pt-[16px] md:pt-[20px]">Copyright 2024 fineasy.com all rights reserved</p>
       </div>
     </div>
   );
