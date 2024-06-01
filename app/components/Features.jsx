@@ -1,6 +1,4 @@
-"use client";
 import Image from "next/image";
-import { useState } from "react";
 import { FaCreditCard, FaChartBar, FaMoneyBill } from "react-icons/fa";
 
 const featuresData = [
@@ -26,9 +24,9 @@ function Feature({ heading, desc, icon }) {
     <div className="flex flex-col items-start justify-start py-3 space-y-3">
       <div className="flex gap-4">
         <span className="text-3xl">{icon()}</span>
-        <h3 className="text-xl font-bold ">{heading}</h3>
+        <h3 className="text-xl font-bold">{heading}</h3>
       </div>
-      <p className="">{desc}</p>
+      <p>{desc}</p>
     </div>
   );
 }

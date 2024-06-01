@@ -47,7 +47,7 @@ const FAQCard = ({ index, question, answer }) => (
         : "bg-white text-black"
     } shadow-md p-4 rounded-lg`}
   >
-    <h3 className="text-[20px] sm:text-[24px] font-bold mb-2">{question}</h3>
+    <h3 className="text-[20px] sm:text-[24px] mb-2">{question}</h3>
     <p>{answer}</p>
   </div>
 );
