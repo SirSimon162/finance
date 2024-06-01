@@ -21,7 +21,7 @@ const data = [
 
 const Advantages = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="about">
       <div className="text-center mx-auto mb-4">
         <p className="mt-4 text-[14px] sm:text-[16px] text-red-600">
           ADVANTAGES

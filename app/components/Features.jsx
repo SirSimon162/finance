@@ -34,7 +34,7 @@ function Feature({ heading, desc, icon }) {
 const Features = () => {
   return (
     <>
-      <div className="w-full flex flex-col md:flex-row items-center justify-between mb-10">
+      <div className="w-full flex flex-col md:flex-row items-center justify-between mb-10" id="features">
         <div className="relative flex justify-center items-center mb-4 md:mb-0">
           <Image
             width={1000}

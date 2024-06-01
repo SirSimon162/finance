@@ -46,7 +46,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="py-12 relative">
+    <div className="py-12 relative" id="pricing">
         <div className="absolute bottom-40 left-20 w-40 sm:w-72 h-20 sm:h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 -z-[100]"></div>
         <div className="absolute top-40 right-0 w-40 sm:w-72 h-20 sm:h-36 bg-red-600 rounded-full mix-blend-multiply filter blur-xl opacity-70 -z-[100]"></div>
       <div className="mx-auto">
