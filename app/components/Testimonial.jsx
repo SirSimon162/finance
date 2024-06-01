@@ -39,7 +39,7 @@ const Testimonials = () => {
           What Our Users Say About Us
         </h2>
       </div>
-      <div className="flex flex-col md:flex-row items-center mb-10">
+      <div className="flex flex-col md:flex-row items-center mb-10 relative">
         <div className="relative w-full flex justify-center items-center mb-4 md:mb-0">
           <Image
             width={1000}
@@ -50,7 +50,21 @@ const Testimonials = () => {
           />
           <div className="absolute w-20 sm:w-44 h-20 sm:h-44 bg-red-600 rounded-full mix-blend-multiply filter blur-2xl opacity-70 -z-10 -translate-y-8"></div>
           <div className="absolute w-20 sm:w-44 h-20 sm:h-44 bg-yellow-300 rounded-full mix-blend-multiply filter blur-2xl opacity-70 -z-10 translate-y-4"></div>
+          <Image
+            src="Star.svg"
+            alt="star"
+            width={300}
+            height={300}
+            className="absolute w-10 -top-[100px] left-20 sm:block hidden"
+          />
         </div>
+        <Image
+        src="Star.svg"
+        alt="star"
+        width={300}
+        height={300}
+        className="absolute w-16 bottom-0 right-20 sm:block hidden"
+      />
         <div className="w-full">
           <h2 className="text-[22px] sm:text-[28px] font-bold mb-4">
             {currentTestimonial.heading}

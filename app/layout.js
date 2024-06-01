@@ -25,10 +25,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${clash.variable} font-sans`}>
-      <body className="max-w-7xl mx-auto px-5 flex flex-col items-center justify-center bg-white">
+      <body className="relative max-w-7xl mx-auto px-5 flex flex-col items-center justify-center bg-white">
         <NavBar />
         <main className="mt-20">{children}</main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

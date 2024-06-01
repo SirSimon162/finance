@@ -1,4 +1,5 @@
 import { CiCircleCheck } from "react-icons/ci";
+import Image from "next/image";
 
 const Pricing = () => {
   const plans = [
@@ -47,8 +48,22 @@ const Pricing = () => {
 
   return (
     <div className="py-12 relative" id="pricing">
-        <div className="absolute bottom-40 left-20 w-40 sm:w-72 h-20 sm:h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 -z-[100]"></div>
-        <div className="absolute top-40 right-0 w-40 sm:w-72 h-20 sm:h-36 bg-red-600 rounded-full mix-blend-multiply filter blur-xl opacity-70 -z-[100]"></div>
+      <div className="absolute bottom-40 left-20 w-40 sm:w-72 h-20 sm:h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 -z-[100]"></div>
+      <div className="absolute top-40 right-0 w-40 sm:w-72 h-20 sm:h-36 bg-red-600 rounded-full mix-blend-multiply filter blur-xl opacity-70 -z-[100]"></div>
+      <Image
+        src="Star.svg"
+        alt="star"
+        width={300}
+        height={300}
+        className="absolute w-10 bottom-0 -left-20 sm:block hidden"
+      />
+      <Image
+        src="Star.svg"
+        alt="star"
+        width={300}
+        height={300}
+        className="absolute w-10 top-0 right-20 sm:block hidden"
+      />
       <div className="mx-auto">
         <div className="text-center">
           <p className="mt-4 text-[14px] sm:text-[16px] text-red-600">

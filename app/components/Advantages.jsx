@@ -55,6 +55,13 @@ const Advantages = () => {
               />
               <div className="absolute w-40 sm:w-72 h-20 sm:h-36 bg-red-600 rounded-full mix-blend-multiply filter blur-2xl opacity-70 -z-20"></div>
               <div className="absolute w-40 sm:w-72 h-20 sm:h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-2xl opacity-70 -z-20 -translate-y-10"></div>
+              <Image
+                src="Star.svg"
+                alt="star"
+                width={300}
+                height={300}
+                className="absolute w-14 top-[100px] right-20 sm:block hidden rotate-45"
+              />
             </div>
           </div>
         ))}

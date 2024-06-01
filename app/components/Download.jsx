@@ -2,37 +2,37 @@ import Image from "next/image";
 function Download() {
   return (
     <div className="relative">
-    <div className="absolute bottom-0 left-0 w-40 sm:w-72 h-20 sm:h-36 bg-red-600 rounded-full mix-blend-multiply filter blur-xl opacity-80"></div>
-    <div className="absolute top-0 right-0 w-40 sm:w-72 h-20 sm:h-36 bg-yellow-600 rounded-full mix-blend-multiply filter blur-xl opacity-80"></div>
-    <div className="relative w-full bg-black text-white rounded-md my-6 md:my-12 py-5">
-      <div className=" rounded-lg shadow-sm overflow-hidden flex flex-col md:flex-row md:items-center justify-between text-center md:text-left">
-        <div className="flex flex-col space-y-2 p-4 md:space-y-0 ml-2 lg:ml-14">
-          <h2 className="text-[32px] md:text-[48px] font-bold capitalize">
-            Ready To Get Started?
-          </h2>
-          <p className="font-medium text-[16px] md:text-[18px]">
-            Get Ready to dive into the world of finances with FinEasy!
-          </p>
-          <div className="relative py-2 flex flex-col items-center space-y-3 md:space-x-4 md:space-y-0 md:items-center md:flex-row">
-            <DownloadButton
-              platform="Google Play"
-              icon={<Google size={25} />}
+      <div className="absolute bottom-0 left-0 w-40 sm:w-72 h-20 sm:h-36 bg-red-600 rounded-full mix-blend-multiply filter blur-xl opacity-80"></div>
+      <div className="absolute top-0 right-0 w-40 sm:w-72 h-20 sm:h-36 bg-yellow-600 rounded-full mix-blend-multiply filter blur-xl opacity-80"></div>
+      <div className="relative w-full bg-black text-white rounded-md my-6 md:my-12 py-5">
+        <div className=" rounded-lg shadow-sm overflow-hidden flex flex-col md:flex-row md:items-center justify-between text-center md:text-left">
+          <div className="flex flex-col space-y-2 p-4 md:space-y-0 ml-2 lg:ml-14">
+            <h2 className="text-[32px] md:text-[48px] font-bold capitalize">
+              Ready To Get Started?
+            </h2>
+            <p className="font-medium text-[16px] md:text-[18px]">
+              Get Ready to dive into the world of finances with FinEasy!
+            </p>
+            <div className="relative py-2 flex flex-col items-center space-y-3 md:space-x-4 md:space-y-0 md:items-center md:flex-row">
+              <DownloadButton
+                platform="Google Play"
+                icon={<Google size={25} />}
               />
-            <DownloadButton platform="App Store" icon={<Apple size={25} />} />
+              <DownloadButton platform="App Store" icon={<Apple size={25} />} />
+            </div>
           </div>
-        </div>
-        <div>
-          <Image
-            src="/DownloadMockups.png"
-            alt="Mobile"
-            height={800}
-            width={800}
-            className="w-full object-contain lg:h-[300px] xl:h-[400px]"
+          <div>
+            <Image
+              src="/DownloadMockups.png"
+              alt="Mobile"
+              height={800}
+              width={800}
+              className="w-full object-contain lg:h-[300px] xl:h-[400px]"
             />
+          </div>
         </div>
       </div>
     </div>
-            </div>
   );
 }
 
